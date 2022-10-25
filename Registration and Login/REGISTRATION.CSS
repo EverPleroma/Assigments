@@ -1,0 +1,150 @@
+@import url('"https://fonts.googleapis.com"');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: rgb(251, 198, 230);
+}
+.wrapper {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #DADADA;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.wrapper h1{
+    padding-bottom: 20px;
+}
+.genderselect option {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.inputfield{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.inputfield label{
+    padding-bottom: 0px;
+}
+
+.inputcheck{
+display: flex;
+flex-direction: row-reverse;
+align-items: center ;
+justify-content: start;
+padding-bottom: 24px;
+}
+
+.inputcheck .check {
+display: flex;
+position: relative;
+bottom: 37px;
+}
+
+.inputcheck label {
+    padding-left: 6px;
+    font-size: 0.8rem;
+}
+.inputfield input,select{
+    padding: 4px;
+    padding-left: 8px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.registerbtn {
+    padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid rgb(78, 62, 7);
+  color: rgb(78, 62, 7);
+  border-radius: 8px;
+  outline: none;
+  transition: 0.6s ease;
+  }
+  
+  .registerbtn:hover {
+    cursor: pointer;
+    background-color: rgb(243, 199, 41);
+    color: rgb(78, 63, 7);
+    box-shadow: 0 0 5px rgba(78, 63, 7, 0.5), 0 0 10px rgba(78, 63, 7, 0.5),
+      0 0 15px rgba(78, 63, 7, 0.5);
+    font-weight: bold;
+  }
+
+
+.remfor {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    font-size: 0.8rem;
+    align-items: center;
+}
+.remfor label{
+    padding-left: 6px;
+    align-items: center;
+}
+.register{
+    display: flex;
+font-size: 0.8rem;
+align-items: center;
+padding-top: 16px;
+justify-content: center;
+}
+.register span {
+    padding: 4px;
+}
+
+/* Success Page Login */
+.popup {
+    display: relative;
+    /* align-items: center; */
+    width: 350px;
+    height: 350px;
+    padding-top: 50%;
+    padding: 2rem 1rem;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    top: 200px;
+    /* margin-left: 25%;
+    margin-top: 25px; */
+    /* margin: 30% 20%; */
+    background-color: #DADADA;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+#login-popup-btn{
+    padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid rgb(78, 62, 7);
+  color: rgb(78, 62, 7);
+  border-radius: 8px;
+  outline: none;
+  transition: 0.6s ease;
+  margin-top: 30px;
+  }
+
+#login-popup-btn:hover {
+   cursor: pointer;
+    background-color: rgb(243, 199, 41);
+    color: rgb(78, 63, 7);
+    box-shadow: 0 0 5px rgba(78, 63, 7, 0.5), 0 0 10px rgba(78, 63, 7, 0.5),
+      0 0 15px rgba(78, 63, 7, 0.5);
+    font-weight: bold;
+  }

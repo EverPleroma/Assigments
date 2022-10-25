@@ -1,0 +1,139 @@
+/* Css rest */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+/* logo */
+h2 {
+  color: rgb(224, 55, 55);
+}
+
+span {
+  color: rgb(243, 199, 41);
+}
+
+/* Navbar */
+
+li a button {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(243, 244, 249);
+}
+
+header {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 5%;
+  box-sizing: border-box;
+  background-color: rgba(78, 62, 7, 0.6);
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.navlinks {
+  list-style: none;
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navlinks li a {
+    text-decoration: none;
+  transition: all 0.3s ease;
+  color: rgb(243, 244, 249);
+}
+
+.navlinks li a:hover {
+  cursor: pointer;
+  color: rgb(239, 143, 143);
+}
+
+.navbtn {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: transparent;
+  color: rgb(243, 244, 249);
+  border: 1px solid rgba(224, 55, 55, 1);
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbtn:hover {
+  background-color: rgba(224, 55, 55, 1);
+}
+
+/* Home section */
+#homeinfo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(78, 62, 7, 0.5);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: rgb(243, 199, 41);
+}
+#homeinfo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("portfolio 2.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+.main p{
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  
+}
+.headings {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: auto
+}
+#name {
+  color: white;
+}
+.btn {
+  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid rgb(243, 199, 41);
+  color: rgb(243, 199, 41);
+  border-radius: 8px;
+  outline: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(243, 199, 41);
+  color: rgb(78, 63, 7);
+  box-shadow: 0 0 5px rgb(78, 63, 7), 0 0 10px rgb(78, 63, 7),
+    0 0 15px rgb(78, 63, 7);
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <!-- poppins font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Css rest */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: poppins;
+      }
+
+      /* logo */
+      h2 {
+        color: rgb(224, 55, 55);
+      }
+      span {
+        color: rgb(243, 199, 41);
+      }
+
+      /* Navbar */
+
+      li a button {
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(243, 244, 249);
+      }
+
+      header {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 16px 5%;
+        background-color: rgba(78, 62, 7, 0.6);
+      }
+
+      .logo {
+        cursor: pointer;
+        margin-right: auto;
+      }
+
+      .navlinks {
+        list-style: none;
+      }
+
+      .navlinks li {
+        display: inline-block;
+        padding: 0px 20px;
+      }
+
+      .navlinks li a {
+        text-decoration: none;
+        transition: all 0.3s ease;
+        color: rgb(243, 244, 249);
+      }
+
+      .navlinks li a:hover {
+        cursor: pointer;
+        color: rgb(239, 143, 143);
+      }
+
+      .navbtn {
+        margin-left: 20px;
+        padding: 9px 25px;
+        background-color: transparent;
+        color: rgb(243, 244, 249);
+        border: 1px solid rgba(224, 55, 55, 1);
+        border-radius: 8px;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .navbtn:hover {
+        background-color: rgba(224, 55, 55, 1);
+      }
+
+      /* Services */
+      .headings {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        margin: 50px 0;
+        margin-top: 60px;
+      }
+      #services {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 450px;
+        border: 1px solid black;
+        margin: 10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 15px;
+        background: linear-gradient(to top, rgb(239, 143, 143) 50%, white 50%);
+        background-size: 100% 200%;
+        transition: all 0.8s;
+      }
+      .box:hover {
+        background-position: left bottom;
+        color: rgb(109, 15, 15);
+        border: none;
+        box-shadow: 0 0 20px rgb(239, 143, 143);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2 class="logo">Pleros<span>Design</span></h2>
+        <nav>
+          <ul class="navlinks">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About me.html">About me</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </nav>
+        <a href="contact.html"><button class="navbtn">Contact</button></a>
+      </header>
+    </div>
+    <section id="services">
+      <div class="row">
+        <div class="box">
+          <h1 class="headings">
+            UI/UX <br />
+            Design
+          </h1>
+          <p>
+            I'll establish your projects with a clear design process and deliver
+            spot-on results. I'll help you build an engaging product easily and
+            quickly.
+          </p>
+        </div>
+
+        <div class="box">
+          <h1 class="headings">Frontend Development</h1>
+          <p>
+            I'll help convert your product to a graphical interface, through the
+            use of programming languages, in order for your users can view and
+            interact with your product.
+          </p>
+        </div>
+
+        <div class="box">
+          <h1 class="headings">Graphic Design</h1>
+          <p>
+            I'll create your brand's story and visual message accross to your
+            users to make it more memorable, effective, and aesthetically
+            pleasing.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
